@@ -1,42 +1,35 @@
-![Image](/assets/poster.webp)
+### What this script does
 
-С помощью этого скрипта [IMDB](https://www.imdb.com/), [TMDB](https://www.themoviedb.org/), [Kinopoisk](https://www.kinopoisk.ru/) и [Letterboxd](https://letterboxd.com/) станут бесплатными онлайн-кинотеатрами! На каждой странице с фильмом или сериалом в левом верхнем углу появится флажок. Нажав на него, вы откроете плеер с фильмом.
+This script lets you watch movies and TV shows directly from movie websites like IMDb, TMDB, Kinopoisk, and Letterboxd.
 
-**RUS** | [ENG](README.eng.md)
+When you open a movie or TV show page, a small flag icon will appear in the top-left corner. Click the flag to open a video player and start watching.
 
-<br>
+Supports: Russian (RUS) and English (ENG)
 
-> [!IMPORTANT]  
-> В связи с блокировками РКН и общей нестабильностью интернета на территории РФ для работы скрипта **ОБЯЗАТЕЛЕН ВКЛЮЧЕННЫЙ VPN**. Я не могу гарантировать исправность сервиса для пользователей, находящихся в РФ.
+### Installation
 
-<br>
+1. Install one of these browser extensions:
 
-## Установка 🎓
+   * Tampermonkey (recommended)
+   * Violentmonkey
+   * Greasemonkey
+   * Userscripts
 
-1. Установите одно из расширений для запуска пользовательских скриптов:
+2. Turn on **Developer Mode** in your browser.
 
-    - [Tampermonkey](https://www.tampermonkey.net/) _(рекомендуемое)_
-    - [Violentmonkey](https://violentmonkey.github.io/)
-    - [Greasemonkey](https://www.greasespot.net/)
-    - [Userscripts](https://github.com/quoid/userscripts)
+3. Install the script using the provided link, or download the `tape-operator.user.js` file and install it manually.
 
-2. [Разрешите выполнение userscript’ов и режим разработчика](https://www.tampermonkey.net/faq.php?locale=ru#Q209) в вашем браузере.
-3. Установите скрипт, перейдя по [этой ссылке](https://github.com/Kirlovon/Tape-Operator/raw/main/userscript/tape-operator.user.js). _(либо скачайте `tape-operator.user.js` из папки `userscript` и установите вручную)_
+4. Open any movie or TV show page and click the flag icon in the top-left corner to watch.
 
-Готово, теперь откройте страницу с фильмом на одном из поддерживаемых сайтов _([пример](https://letterboxd.com/film/babylon-2022/))_ и нажмите на флажок в левом верхнем углу!
+If you don't see the flag icon:
 
-> Если флажок не появляется, проверьте, установлен ли скрипт правильно, и перезапустите браузер.
+* Make sure the script was installed correctly.
+* Restart your browser and try again.
 
-<br>
+### Disclaimer
 
-## Отказ от Ответственности
+This project does not host or share copyrighted content. All content belongs to its original owners. If you find illegal content, please contact the website that provides it. The creator of this script is not responsible for content found on other websites.
 
-Проект не хранит и не распространяет пиратский контент. Все права на материалы принадлежат их законным владельцам. Для удаления незаконного контента обращайтесь к первоисточнику. Я не несу ответственности за содержание, размещенное на сторонних ресурсах.
+### License
 
-**_Пиратство - плохо!_**
-
-<br>
-
-## Лицензия
-
-MIT _([LICENSE](https://github.com/Kirlovon/Tape-Operator/blob/main/LICENSE) файл)_
+MIT License (see the LICENSE file).
