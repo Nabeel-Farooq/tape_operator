@@ -1,35 +1,57 @@
-### What this script does
+# Movie Flag Script 🎬
 
-This script lets you watch movies and TV shows directly from movie websites like IMDb, TMDB, Kinopoisk, and Letterboxd.
+This script turns sites like **IMDb, TMDB, Kinopoisk, and Letterboxd** into free online cinema platforms.
 
-When you open a movie or TV show page, a small flag icon will appear in the top-left corner. Click the flag to open a video player and start watching.
+When you open a movie or TV show page, a **flag icon** will appear in the top-left corner. Click it to open a video player and watch the content.
 
-Supports: Russian (RUS) and English (ENG)
+---
 
-### Installation
+## 🌍 Languages
+- Russian (RUS)
+- English (ENG)
 
-1. Install one of these browser extensions:
+---
 
-   * Tampermonkey (recommended)
-   * Violentmonkey
-   * Greasemonkey
-   * Userscripts
+## ⚙️ Installation
 
-2. Turn on **Developer Mode** in your browser.
+1. Install a userscript manager extension:
+   - [Tampermonkey (recommended)](https://www.tampermonkey.net/)
+   - Violentmonkey
+   - Greasemonkey
+   - Userscripts
 
-3. Install the script using the provided link, or download the `tape-operator.user.js` file and install it manually.
+2. Enable **Developer Mode** in your browser.
 
-4. Open any movie or TV show page and click the flag icon in the top-left corner to watch.
+3. Install the script:
+   - Use the provided installation link, OR
+   - Download `tape-operator.user.js` and install it manually.
 
-If you don't see the flag icon:
+4. Open any movie or TV show page and click the **flag icon** in the top-left corner.
 
-* Make sure the script was installed correctly.
-* Restart your browser and try again.
+---
 
-### Disclaimer
+## ❗ Troubleshooting
 
-This project does not host or share copyrighted content. All content belongs to its original owners. If you find illegal content, please contact the website that provides it. The creator of this script is not responsible for content found on other websites.
+If the flag icon does not appear:
+- Check that the script is installed correctly
+- Make sure the extension is enabled
+- Restart your browser
 
-### License
+---
 
-MIT License (see the LICENSE file).
+## ⚠️ Disclaimer
+
+This project does **not host or distribute any copyrighted content**.  
+All rights belong to their original owners.
+
+If illegal content is found, please contact the original website.
+
+The author is not responsible for third-party content.
+
+**Piracy is discouraged.**
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
